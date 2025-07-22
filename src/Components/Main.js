@@ -81,7 +81,7 @@ function Main() {
 </div>
 
      <div className="grid grid-cols-4  gap-4 mt-4">
-      <div className="flex flex-wrap">
+      <div className=" flex">
 <img src={decore} alt="decore" />
 </div>
   {product.map(product => (
@@ -102,6 +102,9 @@ function Main() {
 <div>
 <img src={decore} alt="decore" />
 </div> 
+ 
+
+
  
       
     </>
